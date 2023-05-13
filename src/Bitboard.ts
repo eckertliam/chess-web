@@ -43,6 +43,7 @@ class Bitboard {
     }
     console.log(boardStr);
   }
+
 }
 
 // helper function to create a bitboard from an array of squares
@@ -140,4 +141,9 @@ class Board {
   allPieceUnion(): Bitboard {
     return new Bitboard(this.whitePieces.getBoard() | this.blackPieces.getBoard());
   }
+  
 }
+
+// identifies bitboard as a module
+export {Bitboard};
+

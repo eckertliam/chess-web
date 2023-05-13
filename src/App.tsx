@@ -10,7 +10,7 @@ const App: React.FC = () => {
   
   return ( 
     <div className="w-screen h-screen bg-slate-100 flex">
-          
+          <h1>test</h1>
     </div>
   );
 };
